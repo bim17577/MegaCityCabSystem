@@ -5,10 +5,10 @@ public class Customer {
     private String name;
     private String email;
     private String address;
-    private int phonenumber;
-    private int nic;
+    private String phonenumber; 
+    private String nic; 
 
-    public Customer(int customerId, String name, String email, String address, int phonenumber, int nic) {
+    public Customer(int customerId, String name, String email, String address, String phonenumber, String nic) {
         this.customerId = customerId;
         this.name = name;
         this.email = email;
@@ -17,7 +17,7 @@ public class Customer {
         this.nic = nic;
     }
 
-    public Customer(int customerId, String name, String email) { // ✅ Fixed "nam" to "name"
+    public Customer(int customerId, String name, String email) {
         this.customerId = customerId;
         this.name = name;
         this.email = email;
@@ -58,19 +58,19 @@ public class Customer {
         this.address = address;
     }
 
-    public int getPhonenumber() {
+    public String getPhonenumber() {
         return phonenumber;
     }
 
-    public void setPhonenumber(int phonenumber) {
+    public void setPhonenumber(String phonenumber) {
         this.phonenumber = phonenumber;
     }
 
-    public int getNic() {
+    public String getNic() {
         return nic;
     }
 
-    public void setNic(int nic) {
+    public void setNic(String nic) {
         this.nic = nic;
     }
-} // ✅ Removed extra comma and fixed constructor
+}
