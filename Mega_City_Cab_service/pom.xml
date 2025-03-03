@@ -1,19 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  
   <modelVersion>4.0.0</modelVersion>
-
-  <groupId>Mega_City_Cab_service</groupId>
-  <artifactId>Mega_City_Cab_service</artifactId>
+  <groupId>com.icbt.app</groupId>
+  <artifactId>online-app-version5</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Mega City Cab Service Maven Webapp</name>
+  <name>online-app-version5 Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>  <!-- Java 17 for compatibility -->
+    <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
 
@@ -33,8 +30,6 @@
       <version>2.3.3</version>
       <scope>provided</scope>
     </dependency>
-    
-    
 
     <!-- JSTL -->
     <dependency>
@@ -42,15 +37,6 @@
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
-    
-    
-    
-    <dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.32</version>
-</dependency>
-
 
     <!-- Taglibs Standard -->
     <dependency>
@@ -76,8 +62,8 @@
   </dependencies>
 
   <build>
-    <finalName>Mega_City_Cab_service</finalName>
-    
+    <finalName>online-app-version5</finalName>
+
     <pluginManagement>
       <plugins>
         <plugin>
@@ -117,5 +103,4 @@
       </plugins>
     </pluginManagement>
   </build>
-
 </project>
